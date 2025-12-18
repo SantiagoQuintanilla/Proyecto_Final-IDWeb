@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro | NexaTech</title>
+  <link rel="stylesheet" href="/static/css/estilos.css">
+</head>
+<body>
+<header>
+<div class="logo-contenedor">
+    <img src="/static/imagenes/logo_nexatech.png" alt="Logo NexaTech" class="logo">
+</div>
+<nav>
+    <a href="/templates/index.html">Inicio</a>
+    <a href="/templates/servicios.html">Servicios</a>
+    <a href="/templates/portafolio.html">Portafolio</a>
+    <a href="/templates/nosotros.html">Nosotros</a>
+    <a href="/templates/contacto.html">Contacto</a>
+    <a href="/templates/login.html">Login</a>
+    <a href="/templates/register.html">Registro</a>
+</nav>
+</header>
+<br><br><br><br>
+<h2>Registro de Usuario</h2>
+<form method="post">
+    <input type="text" name="username" placeholder="Nombre de usuario" required>
+    <input type="password" name="password" placeholder="Contraseña" required>
+    <select name="role">
+        <option value="user">Usuario</option>
+        <option value="admin">Administrador</option>
+    </select>
+    <button type="submit">Registrar</button>
+</form>
+<script src="/static/js/app.js"></script>
+</body>
+</html>
